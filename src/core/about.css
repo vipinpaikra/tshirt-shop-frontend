@@ -1,0 +1,49 @@
+.acolumn {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.acard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    border: 1px solid white;
+}
+
+.aabout-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.acontainer {
+    padding: 0 16px;
+}
+
+.acontainer::after,
+.arow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.atitle {
+    color: grey;
+}
+
+.abutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.abutton:hover {
+    background-color: #555;
+}
